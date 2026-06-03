@@ -1,7 +1,5 @@
 # Enhanced Image Processing for Foundation Model Cell Segmentation: A Study on Challenging Modalities
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1ca3VVdQhKQIyiMiwf2933IThEhdBvsaT)
-
 ## Overview
 This repository contains the code, data logs, and visualizations for the study **"Enhanced Image Processing for Foundation Model Cell Segmentation: A Study on Challenging Modalities"**. 
 
@@ -12,8 +10,8 @@ Recent foundation models achieve state-of-the-art performance in cell segmentati
 The repository is organized to ensure full transparency and reproducibility of the experimental results:
 
 * **`notebooks/`**
-    * `Model Inference.ipynb`: The main execution pipeline evaluating baseline and optimized model performances.
-    * `Hyperparameter Tuning.ipynb`: The grid search execution for establishing optimal preprocessing parameters.
+    * `Model_Inference.ipynb`: The main execution pipeline evaluating baseline and optimized model performances.
+    * `Hyperparameter_Tuning.ipynb`: The grid search execution for establishing optimal preprocessing parameters.
 * **`results/`**
     * `*.csv`: The final, optimized quantitative results (Dice, Panoptic Quality, etc.) for each model using their ideal preprocessing pipelines.
     * `experiment_baseline/`: The quantitative results for models run "as-is" on raw H&E and mIF imagery with no preprocessing.
